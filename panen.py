@@ -11,3 +11,6 @@ total = hitung_total_hasil(data_panen)
 
 print("Data hasil panen:", data_panen)
 print("Total hasil panen:", total, "kg")
+def hitung_diskon(total, persentase_diskon):
+    diskon = total * persentase_diskon / 100
+    return total - diskon
